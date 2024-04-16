@@ -1,0 +1,44 @@
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.row{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.column{
+	display:flex;
+	flex-direction: column;
+}
+
+img{
+	width: 70px;
+	height: 70px;
+}
+
+.playlist h3{
+	font-weight:500;
+	font-size:x-large;
+	text-transform: capitalize;
+	margin:0px;
+	margin-bottom: 10px;;
+}
+
+.playlist p{
+	margin:0px;
+	text-transform: capitalize;
+	font-weight: 200;
+	margin-left: 10px;
+}
+
+.playlist .column{
+	justify-content: center;
+	margin: 5px;;
+}
+
+.playlist .row{
+	justify-content: flex-start;
+}
